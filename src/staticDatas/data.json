@@ -1,0 +1,268 @@
+[
+    {
+        "id": 1,
+        "name": "A동",
+        "machines": [
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "B동",
+        "machines": [
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "C동",
+        "machines": [
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 0,
+                "statusName": "비가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            },
+            {
+                "status": 1,
+                "statusName": "가동",
+                "name": "PRESS ",
+                "quantity": "300TON",
+                "company": "마이다",
+                "title": "1호기"
+            }
+        ]
+    }
+]

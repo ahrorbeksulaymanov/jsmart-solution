@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-08: #15171C;
+  --color-gray-07: #404040;
+  --color-gray-05: #999BA0;
+  --color-gray-02: #F0F0F0;
+  --color-gray-04: #B2B2B2;
+  --color-danger: #FF2727;
+  --color-sidebar-bg: #F9F9F9;
+  --color-light-border: #AEAEAE;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.auth-form-shadow{
+  box-shadow: 0px 20px 30px 0px #D4D9E2;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease-out;
+}
