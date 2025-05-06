@@ -1,14 +1,17 @@
 import { useDispatch } from "react-redux";
 import { logout } from "../features/auth/authSlice";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const LogoutButton = () => {
     
     const dispatch = useDispatch();
+    const navigate = useNavigate()
     const [showConfirm, setShowConfirm] = useState(false);
 
     const handleLogout = () => {
         dispatch(logout());
+        navigate('/');
         setShowConfirm(false);
     };
 
