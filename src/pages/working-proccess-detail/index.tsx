@@ -1,7 +1,6 @@
 import BlockTitle from "../../components/BlockTitle";
 import PageHeader from "../../components/PageHeader";
 import useUrlQueryParams from "../../hooks/useUrlQueryParams";
-import data from '../../staticDatas/data.json';
 import FilterForm from "./filterForm";
 
 const WorkingProccessDetailPage = () => {
@@ -36,22 +35,22 @@ const WorkingProccessDetailPage = () => {
 
 
                 <div className="relative overflow-x-auto">
-                    <table className="w-full text-[10px] text-left rtl:text-right text-gray-500 ">
-                        <thead className=" text-gray-700 uppercase bg-gray-50 ">
+                    <table className="w-full text-[12px] text-center text-gray-07 leading-[160%] font-normal">
+                        <thead className="uppercase bg-sidebar-bg border-[0.1px] border-solid border-light-border border-b-0">
                             <tr>
-                                <th scope="col" className="px-3 py-1">날짜</th>
-                                <th scope="col" className="px-3 py-1">위치</th>
-                                <th scope="col" className="px-3 py-1">설비</th>
-                                <th scope="col" className="px-3 py-1">모델</th>
-                                <th scope="col" className="px-3 py-1">제조사</th>
+                                <th scope="col" className="px-3 py-1 border-r-[0.1px] border-solid border-light-border lg:w-[100px]">날짜</th>
+                                <th scope="col" className="px-3 py-1 border-r-[0.1px] border-solid border-light-border lg:w-[50px]">위치</th>
+                                <th scope="col" className="px-3 py-1 border-r-[0.1px] border-solid border-light-border">설비</th>
+                                <th scope="col" className="px-3 py-1 border-r-[0.1px] border-solid border-light-border">모델</th>
+                                <th scope="col" className="px-3 py-1 border-r-[0.1px] border-solid border-light-border lg:w-[150px]">제조사</th>
                                 <th scope="col" className="px-3 py-1">생산</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 Array.from({ length: 10 })?.map((item, index) => (
-                                    <tr key={index} className="bg-white border-b  border-gray-200">
-                                        <th scope="row" className="px-3 py-1 font-medium text-gray-900 whitespace-nowrap ">
+                                    <tr key={index} className="bg-white leading-[160%] font-normal">
+                                        <th scope="row" className="px-3 py-1 whitespace-nowrap leading-[160%] font-normal">
                                             25.09.01
                                         </th>
                                         <td className="px-3 py-1">
@@ -74,6 +73,26 @@ const WorkingProccessDetailPage = () => {
                             }
                         </tbody>
                     </table>
+                </div>
+            </div>
+
+            <div className="flex justify-center text-[10px] mt-6">
+                <div className="flex justify-center w-max rounded-[2px] border-[1px] border-solid border-light-border h-5">
+                    <div className="prev px-3 flex justify-center items-center cursor-pointer hover:bg-sidebar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="8" viewBox="0 0 4 8" fill="none">
+                            <path d="M3.5 1L0.5 4L3.5 7" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                        
+                    <div className="border-[1px] border-y-0 border-solid border-light-border px-3 flex justify-center items-center cursor-pointer hover:bg-sidebar-bg">
+                        <span>1</span>
+                    </div>
+
+                    <div className="next px-3 flex justify-center items-center cursor-pointer hover:bg-sidebar-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="8" viewBox="0 0 4 8" fill="none">
+                            <path d="M0.5 7L3.5 4L0.500001 1" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
