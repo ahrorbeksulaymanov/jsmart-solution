@@ -1,7 +1,7 @@
 import { useFetch } from '../../hooks/useFetchData';
 import { usePagination } from '../../hooks/usePagination';
 import { useDebounce } from '../../hooks/useDebounce';
-import TestTable from '../../components/table/Table';
+import TestTable from '../../components/test1/Table';
 import Test2 from '../../components/test2/Table';
 
 interface Post {
