@@ -1,6 +1,8 @@
 import { useFetch } from '../../hooks/useFetchData';
 import { usePagination } from '../../hooks/usePagination';
 import { useDebounce } from '../../hooks/useDebounce';
+import TestTable from '../../components/table/Table';
+import Test2 from '../../components/test2/Table';
 
 interface Post {
     id: number;
@@ -13,8 +15,6 @@ const StatisticsPage = () => {
     const { page, limit, search } = usePagination();
     const debouncedSearch = useDebounce(search, 500);
 
-
-
     const { data, isLoading, isError, error } = useFetch<Post[]>({
         queryKey: ["posts"],
         params: {_page: page, _limit: limit, q: debouncedSearch},
@@ -26,7 +26,9 @@ const StatisticsPage = () => {
     return (
         <div className='content'>
                 <div className="my-table-wrapper pb-[1px] max-w-[976px] w-full">
-                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <Test2 />
+                    <br />
+                    <TestTable />
                 </div>
         </div>
     )
